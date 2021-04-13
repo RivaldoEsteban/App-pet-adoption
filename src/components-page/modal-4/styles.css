@@ -1,0 +1,111 @@
+.pet-category {
+}
+
+.title {
+  line-height: 32px;
+  margin: 48px auto 42px;
+  padding: 0 24px;
+}
+
+.title-categorias {
+  font-weight: 600;
+  color: #0e172c;
+  padding: 0 24px;
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.cat-dog {
+  display: flex;
+  align-items: center;
+  width: 156px;
+  background: black;
+  border-radius: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.cat-dog img {
+  padding: 12px;
+  border-radius: 50%;
+  background: #85d1ce;
+}
+
+.cat-dog p {
+  margin: auto;
+  color: white;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.cat-cat {
+  display: flex;
+  align-items: center;
+  width: 156px;
+  background: black;
+  border-radius: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.cat-cat img {
+  padding: 12px;
+  border-radius: 50%;
+  background: #85d1ce;
+}
+
+.cat-cat p {
+  margin: auto;
+  color: white;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.perros {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  height: 450px;
+  padding: 0 14px;
+  margin-top: 20px;
+}
+
+/* .pets {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 26.42%,
+    #000000 99.33%
+  );
+} */
+
+.pets img {
+  width: 150px;
+  height: 250px;
+  margin: 0 10px;
+  border-radius: 8px;
+}
+.pest p {
+  position: relative;
+  bottom: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: flex;
+}
+
+.gatos {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  height: 450px;
+  padding: 0 14px;
+  margin-top: 20px;
+}

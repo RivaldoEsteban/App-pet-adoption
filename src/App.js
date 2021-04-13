@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import InicioPage from "./components-page/modal-1/logo";
+import AdoparEsbueno1 from "./components-page/modal-2/index";
+import AdoparEsbueno2 from "./components-page/modal-3/index";
+import PetCategory from "./components-page/modal-4/pet-category";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <InicioPage id={"InicioPage"} />
+      <AdoparEsbueno1 />
+      <AdoparEsbueno2 />
+      <PetCategory />
+    </>
   );
 }
 

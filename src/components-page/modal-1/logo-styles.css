@@ -1,0 +1,22 @@
+.logo {
+  display: block;
+  margin: 350px auto;
+  animation-name: logo;
+  animation-duration: 2s;
+  width: 150px;
+}
+
+@keyframes logo {
+  0% {
+    /* transform: rotate(0deg); */
+    width: 0px;
+  }
+  100% {
+    /* transform: rotate(360deg); */
+    width: 150px;
+  }
+}
+
+.inicio-logo {
+  display: none;
+}

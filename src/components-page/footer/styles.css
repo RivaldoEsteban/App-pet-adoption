@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 375px;
+  background: white;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.footer svg {
+  /* padding: 12px 24px; */
+}
+
+.footer svg path {
+  stroke: black;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  padding: 4px 10px;
+  border: 1px solid red;
+  margin: 10px auto;
+  /* background: black; */
+  border-radius: 15px;
+}
+
+.home {
+  background: black;
+  color: #85d1ce;
+}
+
+.home svg path {
+  stroke: #85d1ce;
+}
+
+.home-txt {
+  margin: 0 0 0 10px;
+}

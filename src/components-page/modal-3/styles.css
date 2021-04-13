@@ -1,0 +1,12 @@
+.adoptado {
+  text-align: center;
+  padding: 0 15px;
+  position: absolute;
+  bottom: 0;
+  display: none;
+}
+
+.adoptado p {
+  color: #535353;
+  line-height: 24px;
+}

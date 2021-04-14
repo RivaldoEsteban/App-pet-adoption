@@ -2,17 +2,18 @@ import React from "react";
 import "./styles.css";
 
 export default function Footer() {
+  const home = document.getElementById("home");
+  const message = document.getElementById("message");
+  const like = document.getElementById("like");
+  const user = document.getElementById("user");
+  let txt = document.getElementById("txt-home");
+
   function selectPage() {
-    const home = document.querySelector("#home");
-    const homeTxt = document.querySelector("#txt");
-    homeTxt.textContent = "home";
-    homeTxt.classList.add("home-txt");
-    home.classList.add("home");
+    txt.textContent = "Home";
   }
   return (
     <footer className="footer">
       <div className="icons" id="home" onClick={selectPage}>
-        {selectPage}
         <svg
           width="24"
           height="24"
@@ -26,9 +27,9 @@ export default function Footer() {
           />
           <path d="M9 22V12H15V22" stroke="black" />
         </svg>
-        <p id="txt"></p>
+        <p className="txt-icon" id="txt-home"></p>
       </div>
-      <div className="icons">
+      <div className="icons" id="message">
         <svg
           width="24"
           height="24"
@@ -41,9 +42,9 @@ export default function Footer() {
             stroke="black"
           />
         </svg>
-        <p></p>
+        <p className="txt-icon" id="txt-home"></p>
       </div>
-      <div className="icons">
+      <div className="icons" id="like">
         <svg
           width="24"
           height="24"
@@ -56,9 +57,9 @@ export default function Footer() {
             stroke="black"
           />
         </svg>
-        <p></p>
+        <p className="txt-icon" id="txt-home"></p>
       </div>
-      <div className="icons">
+      <div className="icons" id="user">
         <svg
           width="24"
           height="24"
@@ -75,7 +76,7 @@ export default function Footer() {
             stroke="blue"
           />
         </svg>
-        <p></p>
+        <p className="txt-icon" id="txt-home"></p>
       </div>
     </footer>
   );

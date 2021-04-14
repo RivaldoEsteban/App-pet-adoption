@@ -1,28 +1,28 @@
-import React from "react";
-
 const cats = [
   {
     image: "images/app/cat2.png",
-    name: "Peluso",
-    raza: "Pug",
+    name: "Blue",
+    raza: "Siamés",
     key: 1,
+    gato: "images/app/cate-dog.png",
+    perro: "images/app/cate-cat.png",
   },
   {
     image: "images/app/cat3.png",
-    name: "Peluso",
-    raza: "Pug",
+    name: "Matilde",
+    raza: "British Shorthair",
     key: 2,
   },
   {
     image: "images/app/cat4.png",
-    name: "Peluso",
-    raza: "Pug",
+    name: "Bombón",
+    raza: "Gato americano",
     key: 3,
   },
   {
     image: "images/app/cat5.png",
-    name: "Peluso",
-    raza: "Pug",
+    name: "Kity",
+    raza: "Bombay",
     key: 4,
   },
 ];

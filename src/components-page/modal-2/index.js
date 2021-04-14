@@ -1,12 +1,12 @@
 import React from "react";
-import pets from "../../componet-img/images/esperando-adopción.png";
+// import pets from "../../../public/images/app/esperando-adopción.png";
 import Button from "../button/button";
 import "./adoptar.css";
 
 export default function AdoparEsbueno1() {
   return (
     <div className="mascota">
-      <img src={pets} alt="" />
+      <img src="../../../public/images/app/esperando-adopción.png" alt="" />
       <div className="txt">
         <h3>Encuentra tu amigo fiel</h3>
         <p className="txt-p">

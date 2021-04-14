@@ -1,0 +1,141 @@
+.info-pet-container {
+  padding: 16px 24px;
+  background: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  position: relative;
+  bottom: 20px;
+}
+
+.image-pet {
+  width: 375px;
+}
+
+p {
+  color: #535353;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-pet h3 {
+  margin: 8px 0;
+}
+
+.like {
+  padding: 10px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.name-pet {
+  display: flex;
+  align-items: center;
+}
+
+.genero {
+  margin: auto 10px;
+}
+
+.raza-edad {
+  display: flex;
+}
+
+.raza-edad-txt {
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.raza-pet {
+  display: flex;
+  align-items: center;
+}
+
+.edad-pet {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.pet-perfil {
+  display: none;
+  background: white;
+}
+
+.direccion {
+  display: flex;
+  align-items: flex-start;
+}
+
+.direccion p {
+  margin: 0 10px;
+  width: 200px;
+  font-size: 14px;
+  color: #535353;
+}
+
+.personalidad-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.personalidad {
+  width: 92px;
+  height: 87px;
+  border: 2px solid #a786df;
+  padding: 5px 0;
+  border-radius: 8px;
+}
+
+.contacto-dueno {
+  background: white;
+  position: relative;
+}
+
+.historia p {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.contacto-dueno {
+  padding: 0 24px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.img-user {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #85d1ce;
+}
+
+.data-user {
+  margin: 0 10px;
+}
+
+.data-user h6 {
+  margin: 0;
+}
+
+.data-user p {
+  margin: 5px 0;
+}
+
+.btn-user {
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  background: black;
+  color: white;
+  border-radius: 20px;
+  margin-left: 20px;
+  width: 110px;
+}

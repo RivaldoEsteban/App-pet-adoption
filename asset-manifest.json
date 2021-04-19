@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RivaldoEsteban/App-pet-adoption/static/css/main.80ef70a0.chunk.css",
+    "main.js": "/RivaldoEsteban/App-pet-adoption/static/js/main.811342f9.chunk.js",
+    "main.js.map": "/RivaldoEsteban/App-pet-adoption/static/js/main.811342f9.chunk.js.map",
+    "runtime-main.js": "/RivaldoEsteban/App-pet-adoption/static/js/runtime-main.4d1df091.js",
+    "runtime-main.js.map": "/RivaldoEsteban/App-pet-adoption/static/js/runtime-main.4d1df091.js.map",
+    "static/js/2.0bc4c4cf.chunk.js": "/RivaldoEsteban/App-pet-adoption/static/js/2.0bc4c4cf.chunk.js",
+    "static/js/2.0bc4c4cf.chunk.js.map": "/RivaldoEsteban/App-pet-adoption/static/js/2.0bc4c4cf.chunk.js.map",
+    "static/js/3.3d0b54c9.chunk.js": "/RivaldoEsteban/App-pet-adoption/static/js/3.3d0b54c9.chunk.js",
+    "static/js/3.3d0b54c9.chunk.js.map": "/RivaldoEsteban/App-pet-adoption/static/js/3.3d0b54c9.chunk.js.map",
+    "index.html": "/RivaldoEsteban/App-pet-adoption/index.html",
+    "static/css/main.80ef70a0.chunk.css.map": "/RivaldoEsteban/App-pet-adoption/static/css/main.80ef70a0.chunk.css.map",
+    "static/js/2.0bc4c4cf.chunk.js.LICENSE.txt": "/RivaldoEsteban/App-pet-adoption/static/js/2.0bc4c4cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d1df091.js",
+    "static/js/2.0bc4c4cf.chunk.js",
+    "static/css/main.80ef70a0.chunk.css",
+    "static/js/main.811342f9.chunk.js"
+  ]
+}

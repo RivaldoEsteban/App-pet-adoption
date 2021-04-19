@@ -1,0 +1,40 @@
+.chat-message {
+  /* display: none; */
+}
+
+.chat-header {
+  height: 144px;
+  background: white;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.contacto {
+  text-align: center;
+  margin: auto;
+  /* margin-left: 75px; */
+}
+
+.image-dueño {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgb(106, 185, 143);
+}
+
+.name-dueño {
+  font-weight: 700;
+  line-height: 24px;
+  margin: 5px 0 0 0;
+  color: #0e172c;
+}
+
+.arrow-left {
+  height: 24px;
+  width: 24px;
+  background: black;
+  border-radius: 50%;
+}

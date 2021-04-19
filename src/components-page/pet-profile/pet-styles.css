@@ -62,7 +62,6 @@ p {
 }
 
 .pet-perfil {
-  display: none;
   background: white;
 }
 
@@ -138,4 +137,12 @@ p {
   border-radius: 20px;
   margin-left: 20px;
   width: 110px;
+}
+
+.icon-left {
+  position: absolute;
+  padding: 10px;
+  border-radius: 50%;
+  background: white;
+  margin: 10px 0 0 10px;
 }

@@ -1,0 +1,40 @@
+.onbording-container {
+  text-align: center;
+}
+
+.onbording-p {
+  color: #535353;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+.mascota {
+  position: absolute;
+  bottom: 0;
+  padding: 0 12px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.arrows img {
+  width: 20px;
+  height: 20px;
+  margin: auto 10px;
+}
+
+.btn-siguiente {
+  width: 90%;
+  margin: 50px auto 24px;
+  display: block;
+  padding: 16px 24px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+}

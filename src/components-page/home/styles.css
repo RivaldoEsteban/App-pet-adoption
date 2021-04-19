@@ -1,10 +1,11 @@
-.pet-category {
-}
-
 .title {
   line-height: 32px;
   margin: 48px auto 42px;
   padding: 0 24px;
+  color: transparent;
+  background-image: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .title-categorias {
@@ -65,27 +66,18 @@
   font-weight: 700;
 }
 
-.perros {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: scroll;
-  height: 450px;
-  padding: 0 14px;
-  margin-top: 20px;
-}
-
-.pets {
+.pet {
   height: 250px;
   margin: 15px auto;
 }
 
-.pets img {
+.pet img {
   width: 150px;
   height: 250px;
   border-radius: 10px;
 }
 
-.pest p {
+.pet p {
   position: relative;
   bottom: 0;
 }
@@ -110,26 +102,18 @@
   line-height: 20px;
 }
 
-.hidden {
-  display: none;
-}
-
-.visible {
+.pets {
   display: flex;
-}
-
-.gatos {
-  display: none;
   flex-wrap: wrap;
   overflow: scroll;
-  height: 450px;
+  height: 400px;
   padding: 0 14px;
   margin-top: 20px;
 }
 
 .container-name {
   position: relative;
-  bottom: 60px;
+  bottom: 55px;
   padding-bottom: 15px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -151,4 +135,12 @@ h4 {
 
 .historia p {
   margin: 0;
+}
+
+.box {
+  opacity: 1;
+}
+
+.box-o {
+  opacity: 0.5;
 }

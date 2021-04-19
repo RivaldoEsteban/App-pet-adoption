@@ -1,0 +1,31 @@
+.favorites-container {
+  padding: 24px;
+}
+
+.pet-img {
+  height: 250px;
+  width: 156px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.pet-name {
+  color: white;
+  margin: 5px 0 0 10px;
+}
+
+.pet-raza {
+  position: relative;
+  color: white;
+  margin: 5px 0 10px 10px;
+}
+
+.container {
+  padding-bottom: 1px;
+  position: relative;
+  bottom: 60px;
+  width: 156px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-image: linear-gradient(to bottom, transparent, black);
+}

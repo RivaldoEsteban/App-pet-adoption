@@ -11,7 +11,7 @@ export default function Splash({ setPage }) {
   return (
     <section>
       <section className="inicio-logo">
-        <img className="logo" src="/images/app/logo.png" alt="" width="200px" />
+        <img className="logo" src="images/app/logo.png" alt="" width="200px" />
       </section>
     </section>
   );

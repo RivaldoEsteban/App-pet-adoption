@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/App-pet-adoption/static/css/main.80ef70a0.chunk.css",
-    "main.js": "/App-pet-adoption/static/js/main.811342f9.chunk.js",
-    "main.js.map": "/App-pet-adoption/static/js/main.811342f9.chunk.js.map",
-    "runtime-main.js": "/App-pet-adoption/static/js/runtime-main.94a4f06a.js",
-    "runtime-main.js.map": "/App-pet-adoption/static/js/runtime-main.94a4f06a.js.map",
+    "main.css": "/App-pet-adoption/static/css/main.da63decf.chunk.css",
+    "main.js": "/App-pet-adoption/static/js/main.b4acd27b.chunk.js",
+    "main.js.map": "/App-pet-adoption/static/js/main.b4acd27b.chunk.js.map",
+    "runtime-main.js": "/App-pet-adoption/static/js/runtime-main.636b5a43.js",
+    "runtime-main.js.map": "/App-pet-adoption/static/js/runtime-main.636b5a43.js.map",
     "static/js/2.0bc4c4cf.chunk.js": "/App-pet-adoption/static/js/2.0bc4c4cf.chunk.js",
     "static/js/2.0bc4c4cf.chunk.js.map": "/App-pet-adoption/static/js/2.0bc4c4cf.chunk.js.map",
-    "static/js/3.3d0b54c9.chunk.js": "/App-pet-adoption/static/js/3.3d0b54c9.chunk.js",
-    "static/js/3.3d0b54c9.chunk.js.map": "/App-pet-adoption/static/js/3.3d0b54c9.chunk.js.map",
+    "static/js/3.741cde2c.chunk.js": "/App-pet-adoption/static/js/3.741cde2c.chunk.js",
+    "static/js/3.741cde2c.chunk.js.map": "/App-pet-adoption/static/js/3.741cde2c.chunk.js.map",
     "index.html": "/App-pet-adoption/index.html",
-    "static/css/main.80ef70a0.chunk.css.map": "/App-pet-adoption/static/css/main.80ef70a0.chunk.css.map",
+    "static/css/main.da63decf.chunk.css.map": "/App-pet-adoption/static/css/main.da63decf.chunk.css.map",
     "static/js/2.0bc4c4cf.chunk.js.LICENSE.txt": "/App-pet-adoption/static/js/2.0bc4c4cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.94a4f06a.js",
+    "static/js/runtime-main.636b5a43.js",
     "static/js/2.0bc4c4cf.chunk.js",
-    "static/css/main.80ef70a0.chunk.css",
-    "static/js/main.811342f9.chunk.js"
+    "static/css/main.da63decf.chunk.css",
+    "static/js/main.b4acd27b.chunk.js"
   ]
 }

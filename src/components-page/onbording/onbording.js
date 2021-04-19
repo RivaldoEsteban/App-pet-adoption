@@ -3,7 +3,7 @@ import "./onbording-styles.css";
 
 export default function Onbording({ setPage }) {
   const [onbording, setOnbording] = useState({
-    image: "images/app/esperando-adopción.png",
+    image: "images/app/esperando-adopcion.png",
     title: "Encuentra tu amigo fiel",
     texto:
       "Cuando adoptas a una mascota, cosas maravillosas suceden en tu vida. Si estás pensando en tener un nuevo integrante en tu familia; ¡estásen el lugar correcto!",
@@ -19,7 +19,7 @@ export default function Onbording({ setPage }) {
   }
   function changeData2() {
     setOnbording({
-      image: "images/app/esperando-adopción.png",
+      image: "images/app/esperando-adopcion.png",
       title: "Encuentra tu amigo fiel",
       texto:
         "Cuando adoptas a una mascota, cosas maravillosas suceden en tu vida. Si estás pensando en tener un nuevo integrante en tu familia; ¡estásen el lugar correcto!",
@@ -31,6 +31,7 @@ export default function Onbording({ setPage }) {
   }
   return (
     <section className="mascota">
+      <h1>hola</h1>
       <div>
         <img src={onbording.image} alt="" />
         <div className="onbording-container">

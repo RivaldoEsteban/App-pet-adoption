@@ -15,4 +15,5 @@ code {
 .wrapper {
   max-width: 375px;
   margin: auto;
+  height: 100vh;
 }

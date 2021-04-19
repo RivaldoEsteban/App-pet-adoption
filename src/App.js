@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Splash from "./components-page/splash/splash";
 import Onbording from "./components-page/onbording/onbording";
-import Home from "./components-page/home/index";
+import Home from "./components-page/home/home";
 import PetProfile from "./components-page/pet-profile/pet-profile";
 import Chat from "./components-page/chat/chat";
 import Footer from "./components-page/footer/footer";

@@ -2,10 +2,11 @@
   position: absolute;
   bottom: 0;
   display: flex;
-  width: 375px;
+  width: 100%;
   background: white;
   justify-content: space-around;
   margin: auto;
+  border: 1px solid black;
 }
 
 .footer svg {

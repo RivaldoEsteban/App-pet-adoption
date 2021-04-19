@@ -15,6 +15,7 @@ import MessageTray from "./components-page/message-tray/message-tray";
 function App() {
   const [page, setPage] = useState("splash");
   const [pet, setPet] = useState({});
+  const [petFavorites, setPetFavorites] = useState([]);
   switch (page) {
     case "splash":
       return <Splash setPage={setPage} />;
@@ -23,13 +24,26 @@ function App() {
     case "home":
       return <Home setPage={setPage} setPet={setPet} />;
     case "pet-profile":
-      return <PetProfile setPage={setPage} pet={pet} />;
+      return (
+        <PetProfile
+          setPage={setPage}
+          pet={pet}
+          setPetFavorites={setPetFavorites}
+          petFavorites={petFavorites}
+        />
+      );
     case "chat":
       return <Chat setPage={setPage} pet={pet} />;
     case "footer":
       return <Footer setPage={setPage} />;
     case "favorites":
-      return <FavoritesPetPage setPage={setPage} pet={pet} />;
+      return (
+        <FavoritesPetPage
+          setPage={setPage}
+          pet={pet}
+          petFavorites={petFavorites}
+        />
+      );
     case "user":
       return <UserProfile setPage={setPage} />;
     case "message-tray":

@@ -1,3 +1,8 @@
+.pet-category {
+  border: 1px solid red;
+  position: relative;
+}
+
 .title {
   line-height: 32px;
   margin: 48px auto 42px;
@@ -106,9 +111,11 @@
   display: flex;
   flex-wrap: wrap;
   overflow: scroll;
-  height: 400px;
+  height: 500px;
   padding: 0 14px;
   margin-top: 20px;
+  border: 1px solid purple;
+  margin-bottom: 30px;
 }
 
 .container-name {

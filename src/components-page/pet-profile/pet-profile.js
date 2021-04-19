@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./pet-styles.css";
 
-function PetProfile({ setPage, pet }) {
+function PetProfile({ setPage, pet, setPetFavorites, petFavorites }) {
   const perfil = {
     personalities: [],
   };
@@ -9,7 +9,14 @@ function PetProfile({ setPage, pet }) {
     setPage("chat");
   }
   function handleFavoritesClick() {
+    // let newPetFavorites = petFavorites.slice();
+    // newPetFavorites.push(pet);
+
+    // newPetFavorites.push(pet);
+    setPetFavorites([...petFavorites, pet]);
     setPage("favorites");
+    // petFavorites.push(pet);
+    // setPetFavorites(petFavorites);
   }
   function handleHomeClick() {
     setPage("home");

@@ -31,7 +31,6 @@ export default function Onbording({ setPage }) {
   }
   return (
     <section className="mascota">
-      <h1>hola</h1>
       <div>
         <img src={onbording.image} alt="" />
         <div className="onbording-container">

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: white;
 }
 
 code {
@@ -15,5 +16,4 @@ code {
 .wrapper {
   max-width: 375px;
   margin: auto;
-  height: 100vh;
 }

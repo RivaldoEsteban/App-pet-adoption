@@ -160,7 +160,7 @@ h4 {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .pets {
     grid-template-columns: 1fr 1fr;
   }

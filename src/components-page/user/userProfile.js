@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Footer from "../footer/footer";
 import "./user.css";
 
 function UserProfile({ setPage }) {
@@ -70,10 +69,10 @@ function UserProfile({ setPage }) {
           <div className="form-container">
             <label className="label">Foto</label>
             <input
-              className="input"
+              className="input file"
               type="file"
               name="user-img"
-              className="file"
+              id="photo"
             />
             {user.image ? (
               <img className="input-file" src={user.image} alt="" />
@@ -84,7 +83,6 @@ function UserProfile({ setPage }) {
           <button className="btn">Guardar</button>
         </form>
       </section>
-      <Footer setPage={setPage} />
     </section>
   );
 }

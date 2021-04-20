@@ -7,11 +7,11 @@ function FavoritesPetPage({ setPage, petFavorites }) {
     setPage("pet-profile");
   }
   return (
-    <section>
+    <section className="favorites-container">
+      <h1 className="title-page">Mascotas Favoritas</h1>
       {petFavorites.map((pet) => {
         return (
-          <section className="favorites-container">
-            <h1 className="title-page">Mascotas Favoritas</h1>
+          <section>
             <img
               className="pet-img"
               src={pet.image}

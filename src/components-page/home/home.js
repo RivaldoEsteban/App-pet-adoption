@@ -1,17 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import dogs from "../../data-pet/dog-data";
 import cats from "../../data-pet/cat-data";
 import Footer from "../footer/footer";
 import "./styles.css";
 
 export default function Home({ setPage, setPet }) {
-  const [tab, setTab] = useState("");
-  const catPerros = document.querySelector("#catPerros");
-  const catGatos = document.getElementById("catGatos");
-  useEffect(() => {}, []);
+  const [tab, setTab] = useState("dog");
   function printCategoryDog() {
-    console.log(catPerros);
-    console.log(catGatos);
     setTab("dog");
   }
   function printCategoryCat() {
@@ -29,11 +24,31 @@ export default function Home({ setPage, setPet }) {
       </h2>
       <h3 className="title-categorias">Categorías de mascotas</h3>
       <div className="category">
-        <div className="cat-dog" onClick={printCategoryDog} id="catPerros">
+        <div
+          className="cat-dog"
+          onClick={() => {
+            const categoryDog = document.getElementById("catPerros");
+            const categoryCat = document.getElementById("catGatos");
+            categoryCat.style.opacity = ".5";
+            categoryDog.style.opacity = "1";
+            printCategoryDog();
+          }}
+          id="catPerros"
+        >
           <img src="images/app/cate-dog.png" alt="" />
           <p>Perros</p>
         </div>
-        <div className="cat-cat" onClick={printCategoryCat} id="catGatos">
+        <div
+          className="cat-cat"
+          id="catGatos"
+          onClick={() => {
+            const categoryDog = document.getElementById("catPerros");
+            const categoryCat = document.getElementById("catGatos");
+            categoryCat.style.opacity = "1";
+            categoryDog.style.opacity = ".5";
+            printCategoryCat();
+          }}
+        >
           <img src="images/app/cate-cat.png" alt="" />
           <p>Gatos</p>
         </div>

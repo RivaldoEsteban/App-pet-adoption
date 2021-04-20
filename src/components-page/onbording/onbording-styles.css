@@ -10,11 +10,10 @@
 
 .mascota {
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   padding: 0 12px;
   max-width: 375px;
   margin: auto;
-  border: 1px solid red;
 }
 
 .arrows {

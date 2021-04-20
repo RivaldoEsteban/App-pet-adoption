@@ -1,6 +1,4 @@
 .pet-category {
-  border: 1px solid red;
-  position: relative;
 }
 
 .title {
@@ -111,10 +109,9 @@
   display: flex;
   flex-wrap: wrap;
   overflow: scroll;
-  height: 500px;
+  height: 360px;
   padding: 0 14px;
   margin-top: 20px;
-  border: 1px solid purple;
   margin-bottom: 30px;
 }
 

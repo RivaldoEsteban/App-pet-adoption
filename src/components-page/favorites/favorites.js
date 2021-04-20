@@ -11,7 +11,7 @@ function FavoritesPetPage({ setPage, petFavorites }) {
       {petFavorites.map((pet) => {
         return (
           <section className="favorites-container">
-            <h1>Mascotas Favoritas</h1>
+            <h1 className="title-page">Mascotas Favoritas</h1>
             <img
               className="pet-img"
               src={pet.image}

@@ -1,12 +1,13 @@
 .footer {
   position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
-  width: 100%;
   background: white;
   justify-content: space-around;
   margin: auto;
-  border: 1px solid black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .footer svg {

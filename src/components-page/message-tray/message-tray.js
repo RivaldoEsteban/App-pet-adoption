@@ -1,14 +1,12 @@
 import React from "react";
-import Footer from "../footer/footer";
 import "./message-style.css";
 
-function MessageTray({ setPage }) {
+function MessageTray() {
   return (
     <section>
       <section className="message-tray">
         <h1>Mensajes</h1>
       </section>
-      <Footer setPage={setPage} />
     </section>
   );
 }

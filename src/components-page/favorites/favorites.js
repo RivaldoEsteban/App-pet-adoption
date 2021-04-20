@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../footer/footer";
+// import Footer from "../footer/footer";
 import "./favorites-styles.css";
 
 function FavoritesPetPage({ setPage, petFavorites }) {
@@ -25,7 +25,7 @@ function FavoritesPetPage({ setPage, petFavorites }) {
           </section>
         );
       })}
-      <Footer setPage={setPage} />
+      {/* <Footer setPage={setPage} /> */}
     </section>
   );
 }

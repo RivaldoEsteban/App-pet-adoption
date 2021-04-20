@@ -1,5 +1,6 @@
 .message-tray {
   padding: 24px;
+  grid-area: page;
 }
 
 .message-tray h1 {

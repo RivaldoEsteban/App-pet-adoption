@@ -7,6 +7,7 @@ export default function Onbording({ setPage }) {
     title: "Encuentra tu amigo fiel",
     texto:
       "Cuando adoptas a una mascota, cosas maravillosas suceden en tu vida. Si estás pensando en tener un nuevo integrante en tu familia; ¡estásen el lugar correcto!",
+    key: "",
   });
   //arrow , cambiando datos de onbording con las fechas / se actuliza el estado
   function changeData1() {
@@ -15,6 +16,7 @@ export default function Onbording({ setPage }) {
       title: "Crea una nueva historia",
       texto:
         "Adoptar puede ser una de las experiencias más grandiosas de tu vida, donde compartirás bellos momentos con estos amiguitos fieles, tiernos y llenos de amor para regalar.",
+      key: 1,
     });
   }
   function changeData2() {
@@ -23,6 +25,7 @@ export default function Onbording({ setPage }) {
       title: "Encuentra tu amigo fiel",
       texto:
         "Cuando adoptas a una mascota, cosas maravillosas suceden en tu vida. Si estás pensando en tener un nuevo integrante en tu familia; ¡estásen el lugar correcto!",
+      key: 2,
     });
   }
 
@@ -30,7 +33,7 @@ export default function Onbording({ setPage }) {
     setPage("home");
   }
   return (
-    <section className="mascota">
+    <section className="mascota" key={onbording.key}>
       <div>
         <img src={onbording.image} alt="" />
         <div className="onbording-container">

@@ -8,15 +8,13 @@
 
 @keyframes logo {
   0% {
-    /* transform: rotate(0deg); */
     width: 0px;
   }
   100% {
-    /* transform: rotate(360deg); */
     width: 150px;
   }
 }
 
 .inicio-logo {
-  /* display: none; */
+  grid-area: page;
 }

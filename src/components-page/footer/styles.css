@@ -1,13 +1,10 @@
 .footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   display: flex;
   background: white;
   justify-content: space-around;
-  margin: auto;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  grid-area: footer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  border-top: 1px solid black;
 }
 
 .footer svg {

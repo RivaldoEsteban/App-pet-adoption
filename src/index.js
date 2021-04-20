@@ -3,11 +3,15 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import Footer from "./components-page/footer/footer";
 
 ReactDOM.render(
   <React.StrictMode>
     <div className="wrapper">
-      <App />
+      <div className="page">
+        <App />
+        <Footer />
+      </div>
     </div>
   </React.StrictMode>,
   document.getElementById("root")

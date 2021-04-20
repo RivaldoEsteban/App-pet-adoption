@@ -9,11 +9,10 @@
 }
 
 .mascota {
-  position: absolute;
-  bottom: 0px;
   padding: 0 12px;
   max-width: 375px;
   margin: auto;
+  grid-area: page;
 }
 
 .arrows {

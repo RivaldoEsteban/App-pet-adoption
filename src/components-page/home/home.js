@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import dogs from "../../data-pet/dog-data";
 import cats from "../../data-pet/cat-data";
-import Footer from "../footer/footer";
 import "./styles.css";
 
 export default function Home({ setPage, setPet }) {
@@ -19,38 +18,30 @@ export default function Home({ setPage, setPet }) {
   }
   return (
     <section className="pet-category" id="pet-category">
-      <h2 className="title">
-        Adopta una adorable <br /> mascota
-      </h2>
-      <h3 className="title-categorias">Categorías de mascotas</h3>
-      <div className="category">
-        <div
-          className="cat-dog"
-          onClick={() => {
-            const categoryDog = document.getElementById("catPerros");
-            const categoryCat = document.getElementById("catGatos");
-            categoryCat.style.opacity = ".5";
-            categoryDog.style.opacity = "1";
-            printCategoryDog();
-          }}
-          id="catPerros"
-        >
-          <img src="images/app/cate-dog.png" alt="" />
-          <p>Perros</p>
-        </div>
-        <div
-          className="cat-cat"
-          id="catGatos"
-          onClick={() => {
-            const categoryDog = document.getElementById("catPerros");
-            const categoryCat = document.getElementById("catGatos");
-            categoryCat.style.opacity = "1";
-            categoryDog.style.opacity = ".5";
-            printCategoryCat();
-          }}
-        >
-          <img src="images/app/cate-cat.png" alt="" />
-          <p>Gatos</p>
+      <div className="pet-category-top">
+        <h2 className="title">Adopta una adorable mascota</h2>
+        <h3 className="title-categorias">Categorías de mascotas</h3>
+        <div className="category">
+          <div
+            className={`cat-dog ${tab === "dog" ? "is-active" : ""}`}
+            onClick={() => {
+              printCategoryDog();
+            }}
+            id="catPerros"
+          >
+            <img src="images/app/cate-dog.png" alt="" />
+            <p>Perros</p>
+          </div>
+          <div
+            className={`cat-dog ${tab === "cat" ? "is-active" : ""}`}
+            id="catGatos"
+            onClick={() => {
+              printCategoryCat();
+            }}
+          >
+            <img src="images/app/cate-cat.png" alt="" />
+            <p>Gatos</p>
+          </div>
         </div>
       </div>
       <div className="pets" id="cate-dog">
@@ -94,7 +85,6 @@ export default function Home({ setPage, setPet }) {
             })
           : ""}
       </div>
-      <Footer setPage={setPage} />
     </section>
   );
 }

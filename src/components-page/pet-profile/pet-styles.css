@@ -8,7 +8,8 @@
 }
 
 .image-pet {
-  width: 375px;
+  width: 100%;
+  height: 400px;
 }
 
 p {
@@ -61,10 +62,6 @@ p {
   align-items: center;
 }
 
-.pet-perfil {
-  background: white;
-}
-
 .direccion {
   display: flex;
   align-items: flex-start;
@@ -79,7 +76,7 @@ p {
 
 .personalidad-container {
   display: flex;
-  justify-content: space-between;
+  gap: 26px;
   text-align: center;
 }
 
@@ -145,4 +142,10 @@ p {
   border-radius: 50%;
   background: white;
   margin: 10px 0 0 10px;
+}
+
+.pet-perfil {
+  background: white;
+  grid-area: page;
+  overflow: auto;
 }

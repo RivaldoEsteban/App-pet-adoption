@@ -1,4 +1,5 @@
 .chat-message {
+  grid-area: page;
   /* display: none; */
 }
 

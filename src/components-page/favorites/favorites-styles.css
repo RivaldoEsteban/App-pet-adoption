@@ -1,5 +1,6 @@
 .favorites-container {
   padding: 24px;
+  grid-area: page;
 }
 
 .pet-img {

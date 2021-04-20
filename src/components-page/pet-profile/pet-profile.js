@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./pet-styles.css";
 
 function PetProfile({ setPage, pet, setPetFavorites, petFavorites }) {
-  const perfil = {
-    personalities: [],
-  };
   function handleContactClick() {
     setPage("chat");
   }

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/App-pet-adoption/static/css/main.cd9d5f20.chunk.css",
-    "main.js": "/App-pet-adoption/static/js/main.51efde22.chunk.js",
-    "main.js.map": "/App-pet-adoption/static/js/main.51efde22.chunk.js.map",
+    "main.css": "/App-pet-adoption/static/css/main.85b54b21.chunk.css",
+    "main.js": "/App-pet-adoption/static/js/main.5ae2c7f3.chunk.js",
+    "main.js.map": "/App-pet-adoption/static/js/main.5ae2c7f3.chunk.js.map",
     "runtime-main.js": "/App-pet-adoption/static/js/runtime-main.0ac889ec.js",
     "runtime-main.js.map": "/App-pet-adoption/static/js/runtime-main.0ac889ec.js.map",
     "static/js/2.697d00dd.chunk.js": "/App-pet-adoption/static/js/2.697d00dd.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.e4692901.chunk.js": "/App-pet-adoption/static/js/3.e4692901.chunk.js",
     "static/js/3.e4692901.chunk.js.map": "/App-pet-adoption/static/js/3.e4692901.chunk.js.map",
     "index.html": "/App-pet-adoption/index.html",
-    "static/css/main.cd9d5f20.chunk.css.map": "/App-pet-adoption/static/css/main.cd9d5f20.chunk.css.map",
+    "static/css/main.85b54b21.chunk.css.map": "/App-pet-adoption/static/css/main.85b54b21.chunk.css.map",
     "static/js/2.697d00dd.chunk.js.LICENSE.txt": "/App-pet-adoption/static/js/2.697d00dd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0ac889ec.js",
     "static/js/2.697d00dd.chunk.js",
-    "static/css/main.cd9d5f20.chunk.css",
-    "static/js/main.51efde22.chunk.js"
+    "static/css/main.85b54b21.chunk.css",
+    "static/js/main.5ae2c7f3.chunk.js"
   ]
 }

@@ -5,11 +5,9 @@ import "./runiing-styles.css";
 import Home from "../home/home";
 
 function RunningApp() {
-  const [runningApp, setRunningApp] = useState(<Main />);
   return (
     <div className="page">
-      {runningApp}
-      <Footer />
+      <Main />
     </div>
   );
 }

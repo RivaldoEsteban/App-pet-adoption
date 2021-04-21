@@ -1,0 +1,6 @@
+.page {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 72px;
+  grid-template-areas: "page" "footer";
+}

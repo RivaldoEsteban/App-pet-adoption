@@ -157,11 +157,13 @@ h4 {
 @media (max-width: 550px) {
   .pets {
     grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 20px;
   }
 }
 
 @media (max-width: 400px) {
   .pets {
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
   }
 }

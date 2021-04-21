@@ -9,7 +9,6 @@ export default function Onbording({ setPage }) {
       "Cuando adoptas a una mascota, cosas maravillosas suceden en tu vida. Si estás pensando en tener un nuevo integrante en tu familia; ¡estásen el lugar correcto!",
     key: "",
   });
-  //arrow , cambiando datos de onbording con las fechas / se actuliza el estado
   function changeData1() {
     setOnbording({
       image: "images/app/adoptado.png",
@@ -30,7 +29,7 @@ export default function Onbording({ setPage }) {
   }
 
   function hundleHomePage() {
-    setPage("home");
+    setPage("main");
   }
   return (
     <section className="mascota" key={onbording.key}>

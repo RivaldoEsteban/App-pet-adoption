@@ -1,9 +1,9 @@
 import React from "react";
 import "./pet-styles.css";
 
-function PetProfile({ setPage, pet, setPetFavorites, petFavorites }) {
+function PetProfile({ setMain, pet, setPetFavorites, petFavorites }) {
   function handleContactClick() {
-    setPage("chat");
+    setMain("chat");
   }
   function handleFavoritesClick() {
     // let newPetFavorites = petFavorites.slice();
@@ -11,12 +11,12 @@ function PetProfile({ setPage, pet, setPetFavorites, petFavorites }) {
 
     // newPetFavorites.push(pet);
     setPetFavorites([...petFavorites, pet]);
-    setPage("favorites");
+    setMain("favorites");
     // petFavorites.push(pet);
     // setPetFavorites(petFavorites);
   }
   function handleHomeClick() {
-    setPage("home");
+    setMain("home");
   }
   return (
     <section className="pet-perfil" id="pet-profile" key={pet.key}>

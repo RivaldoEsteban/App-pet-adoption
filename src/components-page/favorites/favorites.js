@@ -1,17 +1,16 @@
 import React from "react";
-// import Footer from "../footer/footer";
 import "./favorites-styles.css";
 
-function FavoritesPetPage({ setPage, petFavorites }) {
+function FavoritesPetPage({ setMain, petFavorites }) {
   function handlePetProfileClick() {
-    setPage("pet-profile");
+    setMain("pet-profile");
   }
   return (
     <section className="favorites-container">
       <h1 className="title-page">Mascotas Favoritas</h1>
       {petFavorites.map((pet) => {
         return (
-          <section>
+          <section key={pet.key}>
             <img
               className="pet-img"
               src={pet.image}
@@ -25,7 +24,6 @@ function FavoritesPetPage({ setPage, petFavorites }) {
           </section>
         );
       })}
-      {/* <Footer setPage={setPage} /> */}
     </section>
   );
 }

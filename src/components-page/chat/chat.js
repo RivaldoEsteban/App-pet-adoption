@@ -1,9 +1,9 @@
 import React from "react";
 import "./chat-styles.css";
 
-function Chat({ setPage, pet }) {
+function Chat({ setMain, pet }) {
   function retroceder() {
-    setPage("home");
+    setMain("home");
   }
   return (
     <section className="chat-message">

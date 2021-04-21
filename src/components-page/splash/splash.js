@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import "./logo-styles.css";
 
-export default function Splash({ setPage }) {
+export default function Splash({ setStart }) {
   useEffect(() => {
     setTimeout(() => {
-      setPage("onbording");
+      setStart("onbording");
     }, 2000);
   }, []);
 

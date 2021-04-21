@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./user.css";
 
-function UserProfile({ setPage }) {
+function UserProfile() {
   const [user, setUser] = useState({
     name: "",
     latname: "",

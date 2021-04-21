@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
@@ -8,12 +8,10 @@ import Footer from "./components-page/footer/footer";
 ReactDOM.render(
   <React.StrictMode>
     <div className="wrapper">
-      <div className="page">
-        <App />
-        <Footer />
-      </div>
+      <App />
     </div>
   </React.StrictMode>,
+
   document.getElementById("root")
 );
 

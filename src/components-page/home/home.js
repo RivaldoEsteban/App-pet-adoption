@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import dogs from "../../data-pet/dog-data";
 import cats from "../../data-pet/cat-data";
 import "./styles.css";
+import PetProfile from "../pet-profile/pet-profile";
 
-export default function Home({ setPage, setPet }) {
+export default function Home({ setMain, setPet }) {
   const [tab, setTab] = useState("dog");
   function printCategoryDog() {
     setTab("dog");
@@ -13,7 +14,7 @@ export default function Home({ setPage, setPet }) {
   }
 
   function petProfile(pet) {
-    setPage("pet-profile");
+    setMain("pet-profile");
     setPet(pet);
   }
   return (

@@ -1,18 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 
-export default function Footer({ setPage }) {
+export default function Footer({ setMain }) {
   function home() {
-    setPage("home");
+    setMain("home");
   }
   function favorites() {
-    setPage("favorites");
+    setMain("favorites");
   }
   function user() {
-    setPage("user");
+    setMain("user");
   }
   function messageTray() {
-    setPage("message-tray");
+    setMain("message-tray");
   }
   return (
     <footer className="footer">

@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/App-pet-adoption/static/css/main.1b52c6b0.chunk.css",
-    "main.js": "/App-pet-adoption/static/js/main.293456d2.chunk.js",
-    "main.js.map": "/App-pet-adoption/static/js/main.293456d2.chunk.js.map",
+    "main.js": "/App-pet-adoption/static/js/main.b7849dec.chunk.js",
+    "main.js.map": "/App-pet-adoption/static/js/main.b7849dec.chunk.js.map",
     "runtime-main.js": "/App-pet-adoption/static/js/runtime-main.94e482dd.js",
     "runtime-main.js.map": "/App-pet-adoption/static/js/runtime-main.94e482dd.js.map",
-    "static/js/2.605a7312.chunk.js": "/App-pet-adoption/static/js/2.605a7312.chunk.js",
-    "static/js/2.605a7312.chunk.js.map": "/App-pet-adoption/static/js/2.605a7312.chunk.js.map",
+    "static/js/2.16a140bd.chunk.js": "/App-pet-adoption/static/js/2.16a140bd.chunk.js",
+    "static/js/2.16a140bd.chunk.js.map": "/App-pet-adoption/static/js/2.16a140bd.chunk.js.map",
     "static/js/3.c66cecfa.chunk.js": "/App-pet-adoption/static/js/3.c66cecfa.chunk.js",
     "static/js/3.c66cecfa.chunk.js.map": "/App-pet-adoption/static/js/3.c66cecfa.chunk.js.map",
     "index.html": "/App-pet-adoption/index.html",
     "static/css/main.1b52c6b0.chunk.css.map": "/App-pet-adoption/static/css/main.1b52c6b0.chunk.css.map",
-    "static/js/2.605a7312.chunk.js.LICENSE.txt": "/App-pet-adoption/static/js/2.605a7312.chunk.js.LICENSE.txt"
+    "static/js/2.16a140bd.chunk.js.LICENSE.txt": "/App-pet-adoption/static/js/2.16a140bd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.94e482dd.js",
-    "static/js/2.605a7312.chunk.js",
+    "static/js/2.16a140bd.chunk.js",
     "static/css/main.1b52c6b0.chunk.css",
-    "static/js/main.293456d2.chunk.js"
+    "static/js/main.b7849dec.chunk.js"
   ]
 }

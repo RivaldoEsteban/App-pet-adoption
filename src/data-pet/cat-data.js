@@ -33,7 +33,7 @@ const cats = [
   {
     image: "images/app/cat3.png",
     name: "Matilde",
-    raza: "British Shorthair",
+    raza: "British",
     key: 2,
     edad: "3 meses",
     genero: "images/icon/icon-page/masculino.png",
